@@ -1,49 +1,55 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div class="graph">
-      <ul class="months">
-        <li>Янв</li>
-        <li>Фев</li>
-        <li>Мар</li>
-        <li>Апр</li>
-        <li>Май</li>
-        <li>Июн</li>
-        <li>Июл</li>
-        <li>Авг</li>
-        <li>Сен</li>
-        <li>Окт</li>
-        <li>Ноя</li>
-        <li>Дек</li>
-      </ul>
-      <ul class="days">
-        <li>Вс</li>
-        <li>Пн</li>
-        <li>Вт</li>
-        <li>Ср</li>
-        <li>Чт</li>
-        <li>Пт</li>
-        <li>Сб</li>
-      </ul>
-      <ul class="squares">
-        <!-- added via javascript -->
-      </ul>
-      <div class="squares-color">
-        <span class="squares-text">Меньше</span>
-        <div class="block-item1"></div>
-        <div class="block-item2"></div>
-        <div class="block-item3"></div>
-        <div class="block-item4"></div>
-        <div class="block-item5"></div>
-        <span class="squares-text">Больше</span>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230622130003">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  
+  <main>
+    <div class="contribution">
+      <div class="contribution__week">
+        <font class="week__font">Пн</font>
+        <font class="week__font">Ср</font>
+        <font class="week__font">Пт</font>
       </div>
-    </div>
-    <script type="module" src="/main.js"></script>
-  </body>
+      <div class="contribution__main">
+        <div class="contribution__month">
+          <font class='month__item month__item-1' ></font>
+          <font class='month__item month__item-2' ></font>
+          <font class='month__item month__item-3' ></font>
+          <font class='month__item month__item-4' ></font>
+          <font class='month__item month__item-5' ></font>
+          <font class='month__item month__item-6' ></font>
+          <font class='month__item month__item-7' ></font>
+          <font class='month__item month__item-8' ></font>
+          <font class='month__item month__item-9' ></font>
+          <font class='month__item month__item-10' ></font>
+          <font class='month__item month__item-11' ></font>
+          <font class='month__item month__item-12' ></font>
+        </div>
+        <div class="contribution__list">
+
+        </div>
+        <div class="contribution__desc">
+          <font>Меньше</font>
+          <div class="desc__cubes">
+            <div class="cubes__item cubes__item-1"></div>
+            <div class="cubes__item cubes__item-2"></div>
+            <div class="cubes__item cubes__item-3"></div>
+            <div class="cubes__item cubes__item-4"></div>
+            <div class="cubes__item cubes__item-5"></div>
+          </div>
+          <font>Больше</font>
+        </div>
+      </div>
+</div>
+  </main>
+  
+  <script src='js/app.js?_v=20230622130003'></script>
+</body>
 </html>
